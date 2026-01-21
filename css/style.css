@@ -1,0 +1,73 @@
+
+/* ===== Body & Font ===== */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Container Shadow & Rounded ===== */
+.container, .container-fluid {
+    border-radius: 10px;
+}
+
+.mfvai_1-img {
+    background-color: #040c57;
+    
+    
+}
+/* ===== Grid Cards Hover Effect ===== */
+.container-fluid .row > div div {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.container-fluid .row > div div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* ===== Tables Styling ===== */
+table th, table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* ===== Images Styling ===== */
+img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(97, 174, 245, 0.3);
+}
+
+/* ===== Typography Colors ===== */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+}
+
+/* ===== Alert Button Styling (JS-Disabled Placeholder) ===== */
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* ===== Carousel Placeholder Styling ===== */
+.container .carousel-placeholder {
+    background-color: #e9ecef;
+    border-radius: 10px;
+    padding: 50px 0;
+    text-align: center;
+    color: #6c757d;
+    font-size: 1.2rem;
+}
+
+/* ===== Responsive Padding for Containers ===== */
+.container, .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+}

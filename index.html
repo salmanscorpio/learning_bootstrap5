@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Salman Scorpio">
+    <meta name="description" content="Bootstrap 5 learning project by Salman Scorpio">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Salman Scorpio">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="1 days">
+    <meta name="author" content="Salman Scorpio">
+    <title>BT5</title>
+
+    <!--favicon links-->
+    <link rel="icon" href="images/fbi.jpeg" type="image/B-icon">
+    <!--fonts links-->
+
+    <!--css links-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    
+</head>
+<body>
+   
+  <!-- ===== Container (Centered Heading + Message) ===== -->
+  
+  <div class="container text-center mt-5 p-5 bg-dark rounded shadow">
+     <div class="mfvai_1-img">
+      <img src="images/mfvai1.jpg" class="img-fluid rounded" alt="Minhaz Faisal Vai" width="400px">
+    </div>
+    <h1 class="display-4 text-white mb-3">
+      We are learning Bootstrap5 from Our Respected Mentor and Teacher Minhaz Faisal !
+    </h1>
+   
+    <p class="lead text-success mb-3">
+      We are so Greatful, learning from you. We love you 💙
+    </p>
+    <div class="mfvai_2-img mb-3">
+      <img src="images/mfvai2.jpg" class="img-rounded" alt="Minhaz Faisal Vai" width="150px">
+    </div>
+    <p class="text-muted mb-4">
+      Most of the time, around 12 to 15 students show up for class! But only 5 to 7 of us are usually active learners. We Active ones always enjoy your lessons Vai.
+    </p>
+
+    <!-- Alert Button -->
+    <button id="SlmBtn" class="btn btn-primary btn-lg">Assalamu Alaykum Vai</button>
+  </div>
+ </div>
+  <!-- ===== Container-Fluid with Grid ===== -->
+  <div class="container-fluid mt-5 p-4 bg-dark text-white">
+    <div class="row text-center">
+      <div class="col-md-4 mb-3">
+        <div class="p-3 bg-primary rounded">
+          <h3 class="text-white">Typography</h3>
+          <p class="text-light">Headings, Paragraphs, Lead Text, Display Classes</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="p-3 bg-success rounded">
+          <h3 class="text-white">Colors</h3>
+          <p class="text-light">Backgrounds, Text Colors, Alerts, Buttons</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="p-3 bg-warning rounded">
+          <h3 class="text-dark">Images</h3>
+          <p class="text-dark">Responsive, Rounded, Thumbnail, Figures</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Table Section ===== -->
+  <div class="container mt-5 text-white">
+    <h2 class="text-center text-secondary text-white mb-4">MOST ACTIVE STUDENTS</h2>
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered table-hover">
+        <thead class="table-dark">
+          <tr>
+            <th>#</th>
+            <th>Student Name</th>
+            <th>Attendance</th>
+            <th>Behaviour</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-success">
+            <td>1</td>
+            <td>Abu Bakr Siddque</td>
+            <td>In All classes</td>
+            <td>MashaAllah</td>
+          </tr>
+          <tr class="table-info">
+            <td>2</td>
+            <td>Hafeza Mony</td>
+            <td>In All classes</td>
+            <td>MashaAllah</td>
+          </tr>
+          <tr class="table-warning">
+            <td>3</td>
+            <td>Hami Afsar Nafis</td>
+            <td>In All classes accept last class</td>
+            <td>MashaAllah</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ===== Collapse Section ===== -->
+   
+  <div class="container mt-5">
+    <p class="text-center">
+      <a class="btn btn-success" data-bs-toggle="collapse" href="#extraInfo" role="button" aria-expanded="false" aria-controls="extraInfo">
+        More About Our Class
+      </a>
+    </p>
+    <div class="collapse" id="extraInfo">
+      <div class="card card-body text-center">
+        Most of the time, about 12 to 15 students attend the class. But sadly, only 5 to 7 of them are usually active!
+        We Active ones love learning from you Vai and always enjoy the lessons.
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Images Gallery ===== -->
+  <div class="container-fluid mt-5 p-4 bg-dark rounded">
+    <h2 class="text-center text-white mb-4">Uses of Bootstrap Images</h2>
+    <div class="row text-center">
+      <div class="col-md-3 mb-3">
+        <img src="images/btimg1.png" class="img-fluid rounded" alt="Image 1">
+      </div>
+      <div class="col-md-3 mb-3">
+        <img src="images/btimg2.png" class="img-thumbnail" alt="Image 2">
+      </div>
+      <div class="col-md-3 mb-3">
+        <img src="images/btimg3.jpg" class="img-fluid rounded" alt="Image 3">
+      </div>
+      <div class="col-md-3 mb-3">
+        <img src="images/btimg4.jpg" class="img-thumbnail" alt="Image 4">
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Carousel ===== -->
+  <div id="imageCarousel" class="carousel slide container mt-5 mb-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/btimg-s1.png" class="d-block w-100" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="images/btimg-s2.jpg" class="d-block w-100" alt="Slide 2">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+    <!--js links-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+    // Alert Button
+    const btn = document.getElementById("SlmBtn");
+    btn.addEventListener("click", function() {
+      alert("We are so grateful to our respected mentor Minhaz Faisal Vai! 💙");
+    });
+  </script>
+
+</body>
+</html>
